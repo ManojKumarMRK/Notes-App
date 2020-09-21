@@ -9,6 +9,10 @@ It will be saved with the date and time of adding.
 
 The note title should be unique for every note which will help in removing particular node or reading particular node.
 
+Yargs[npm module] is used to unleash the full power of command line arguments.
+
+Chalk[npm module] is used to give some colors to CLI.
+
 _________________________________________________________________________________________
 
 User Instructions:
@@ -22,13 +26,13 @@ Commands:
   app.js read    Display the details of given note title
   app.js del     Delete all notes
   
-Each commands required certain alias. That you can see by typing as follows:
+Each commands required certain alias. You can see by typing as follows:
 
 app.js [command] help
 
 1]  app.js add help
 
-    Add a note
+    Description: Add a note
 
     Options:
       
@@ -40,7 +44,7 @@ app.js [command] help
 2] app.js remove help
 
 
-     Remove a note
+    Description: Remove a note
 
     Options:
       --title    Title of a note to be removed                   [string] [required]
@@ -49,7 +53,7 @@ app.js [command] help
       
 3] app.js list help
  
-       Print all notes
+       Description: Print all notes
        
        Options:
            
@@ -60,12 +64,22 @@ app.js [command] help
 4] app.js read help
 
 
-    Displays a note of given title
+    Description: Displays a note of given title
 
     Options:
       --title    Title of a note to be displayed                  [string] [required]
       
       eg:   app.js read --title="grocery"
+      
+5] app.js list help
+ 
+       Description: Delete all notes
+       
+       Options:
+           
+           It does not have any option
+           
+          eg:   app.js del
       
 __________________________________________________________________________________________________
            
