@@ -49,7 +49,7 @@ app.js [command] help
     Options:
       --title    Title of a note to be removed                   [string] [required]
       
-      eg:   app.js add --title="grocery"
+      eg:   app.js remove --title="grocery"
       
 3] app.js list help
  
