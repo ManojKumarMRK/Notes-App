@@ -7,7 +7,7 @@ We can store a note by adding its title and message.
 
 It will be saved with the date and time of adding.
 
-The note title should be unique for every note which will help in removing particular node or reading particular node.
+The note title should be unique for every note which will help in removing particular note or reading particular note.
 
 Yargs[npm module] is used to unleash the full power of command line arguments.
 
@@ -71,7 +71,7 @@ app.js [command] help
       
       eg:   app.js read --title="grocery"
       
-5] app.js list help
+5] app.js del help
  
        Description: Delete all notes
        
